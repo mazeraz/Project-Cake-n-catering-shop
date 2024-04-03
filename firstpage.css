@@ -1,0 +1,467 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.black-forest-item-contents  a{
+    font-family: "SoDo Sans SemiBold";
+    border: 1px black solid;
+    cursor: pointer;
+    border-radius: 35px 35px 35px ;
+    padding: 10px;
+    padding-inline: 13px 13px;
+    font-size: 20px;
+    
+}
+
+.secondshowcase-contents a {
+    border: 1px black solid;
+    cursor: pointer;
+    border-radius: 35px 35px 35px ;
+    padding: 10px;
+    padding-inline: 13px 13px;
+    font-size: 20px;
+}
+
+.thirdshowcase-contents a {
+    border: 1px black solid;
+    cursor: pointer;
+    border-radius: 35px 35px 35px ;
+    padding: 10px;
+    padding-inline: 13px 13px;
+    font-size: 20px;
+}
+
+.black-forest-item-contents a:hover {
+    background-color:#DDA77B;
+    border-color: #DDA77B;
+    transition: 0.2s; 
+    color: white;
+}
+
+.secondshowcase-contents a:hover {
+    background-color:#DDA77B;
+    border-color: #DDA77B;
+    transition: 0.2s; 
+    color: white;
+}
+
+.thirdshowcase-contents a:hover {
+    background-color:#DDA77B;
+    border-color: #DDA77B;
+    transition: 0.2s; 
+    color: white;
+}
+
+.mainnav-wrapper {
+    position: static;
+    display: grid;
+    width: 100%;
+}
+
+
+.headerfirstpage {  
+    max-width: 100%;
+    width: 100%;
+    background-color: #DDA77B;
+    
+}
+
+.headerfirstpage .p1 {
+    
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    font-weight: 200;
+    font-size: 14px;
+    color: aliceblue;
+  
+}
+
+.Navigation-Hot {
+    max-width: 100%;
+    max-height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    border-bottom: 0.5px solid #0000008a ;
+    box-shadow: 3px 1px 3px      ;
+}
+
+.Navigation-Hot .main-logo {
+    padding-left: 30px;
+   
+}
+
+.Navigation-Hot .shop-name-title {
+    position: relative;
+    top: -12px;
+    font-family: "Braah One", sans-serif;
+    font-weight: 400;
+    padding-left: 30px;
+    color: #252525;
+    font-size: 27px;
+
+    font-style: normal
+}
+
+.Navigation-Hot .shop-name-title :hover {
+   color: #DDA77B;
+   cursor:crosshair;
+}
+
+
+
+.Navigation-Hot .navigation-menu ul {
+    list-style: none;
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.Navigation-Hot .navigation-menu ul li{
+    font-family: "SoDo Sans SemiBold";
+    margin-inline: 10px;
+
+}
+
+.Navigation-Hot .navigation-menu {
+    padding-top: 13px;
+    position: absolute;
+    right: 280px;
+}
+
+.Navigation-Hot .navigation-menu a{
+    text-decoration: none;
+    color: #252525;
+}
+
+.Navigation-Hot .navigation-menu a:hover{
+    color: #DDA77B;
+}
+
+.Navigation-Hot #sign-in {
+    padding-top: 17px;
+    position: absolute;
+    
+    right: 30px;
+   
+}
+
+ .sign-in-engage {
+    background-color: rgb(255, 255, 255);
+    border: 1px black solid;
+    border-radius: 35px 35px 35px ;
+    padding: 10px;
+    padding-inline: 13px 13px;
+} 
+
+#sign-in .sign-in-engage:hover {
+    background-color: #252525;
+    color: white;
+    transition: 0.2s; 
+
+}
+
+
+
+.register-engage {
+
+    background-color: #252525;
+    border: 1px black solid;
+    border-radius: 35px 35px 35px ;
+    padding: 10px;
+    padding-inline: 13px 13px;
+}
+
+#sign-in .register-engage:hover {
+    background-color:#DDA77B;
+    border-color: #DDA77B;
+    transition: 0.2s; 
+    color: white;
+}
+
+
+
+
+.Navigation-Hot #sign-in ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    
+    color: #252525;
+    font-family: "SoDo Sans SemiBold";
+    margin-inline: 10px;
+    list-style: none;
+
+} 
+
+.Navigation-Hot #sign-in ul  {
+   display: flex;
+   list-style: none;
+} 
+
+
+/* front-wrapper-background */
+
+
+#first-bg-wrapper {
+    
+    margin-top: 25px;
+    background-image: url(img/first-bg.jpg);
+    width:100%;
+    display: flex;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 476px;
+    
+}
+
+#first-bg-wrapper img{
+    position: relative;
+    margin-top: 34px;
+    margin-left: 5%;
+    width: 420px;
+    height: auto;
+
+}
+
+#first-bg-wrapper .kaon{
+    font-family: "SoDo Sans SemiBold";
+
+}
+
+.slogan {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-inline: 50px;
+}
+
+.slogan a {
+    margin-left: 40px;
+    font-family: "SoDo Sans SemiBold";
+    border: 1px #c2774d solid;
+    cursor: pointer;
+    color: white;
+    background-color: #c2774d;
+    border-radius: 35px 35px 35px;
+    padding: 10px;
+    padding-inline: 13px 13px;
+    font-size: 20px;
+}
+
+.slogan a:hover {
+    background-color:#DDA77B;
+    border-color:#DDA77B ;
+    transition: 0.2s; 
+    color: white ;
+}
+
+#first-bg-wrapper h1 {
+    font-family: "SoDo Sans SemiBold";
+
+    font-size: 35px;
+    padding-inline: 40px;
+}
+
+/* Highlight showcase*/
+
+#black-forest-wrapper {
+    display: flex;
+    position: relative;
+    margin-inline: 6%;
+    margin-top: 50px;    
+}
+
+
+
+#black-forest-item {
+    position: relative;
+    height: 375px;
+    width: 50%;
+    border-radius: 12px 12px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/black-forest.png);
+    
+}
+
+#black-forest-item img{
+    width:65% ;
+    height: auto;
+}
+
+.black-forest-item-contents {
+    text-align: center;
+    font-family: "SoDo Sans SemiBold";
+    background-color: #d5d0ea  ;
+    border-radius: 12px 12px ;
+    width: 50%;
+    height: 375px;
+}
+
+.black-forest-inner-description {
+    margin-top: 90px;
+    padding-inline: 40px;
+}
+
+/* App-section */
+
+#second-showcase-wrapper {
+    position: relative;
+    margin-inline: 6%;
+    display: flex;
+    margin-top: 10%;
+    
+}
+
+#second-showcase-item {
+    width: 50%;
+    min-width: 50%;
+    height: 375px;
+    position: relative;
+}
+
+.secondshowcase-contents {
+    text-align: center;
+    font-family: "SoDo Sans SemiBold";
+    background-color: #cee8c9;
+    border-radius: 12px 12px ;
+    width: 50%;
+    height: 375px;
+}
+
+.secondshowcase-inner-description {
+    margin-top: 90px;
+    padding-inline: 40px;
+}
+
+#secondshowcase-item {
+    position: relative;
+    height: 375px;
+    width: 50%;
+    border-radius: 12px 12px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/rice-cake.png);
+}
+
+/* catering-section */
+
+#third-showcase-wrapper {
+    position: relative;
+    margin-inline: 6%;
+    display: flex;
+    margin-top: 10%;
+    
+}
+
+#third-showcase-item {
+    width: 50%;
+    min-width: 50%;
+    height: 375px;
+    position: relative;
+}
+
+.thirdshowcase-contents {
+    text-align: center;
+    font-family: "SoDo Sans SemiBold";
+    background-color: #d8da6d;
+    border-radius: 12px 12px ;
+    width: 50%;
+    height: 375px;
+}
+
+.thirdshowcase-inner-description {
+    margin-top: 90px;
+    padding-inline: 40px;
+}
+
+#thirdshowcase-item {
+    position: relative;
+    height: 375px;
+    width: 50%;
+    border-radius: 12px 12px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/catering-services.jpg);
+}
+
+
+footer {
+
+    border-top: 1px solid rgb(49, 49, 49);
+    width: 100%;
+    height: 400px;
+}
+
+footer .lg-flex {
+    display: flex;
+}
+
+.lg-flex img {
+    width: 90px;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 90px;
+}
+
+
+
+
+
+footer ul li {
+    list-style: none;
+    font-family: "Arial";
+    font-size: 20px;
+    padding-block: 15px;
+}
+
+footer ul li a {
+    font-size: 17px;
+
+   color: #4b4b4b;
+   text-decoration: none;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 550px){
+    body{
+        background-color: red;
+    }
+
+    .Navigation-Hot .shop-name-title {
+        display: none;
+    }
+
+    .Navigation-Hot .navigation-menu {
+       display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
