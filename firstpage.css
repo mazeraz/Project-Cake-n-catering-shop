@@ -403,11 +403,19 @@ footer {
     height: 400px;
 }
 
-footer .lg-flex {
+#lg-father-flex {
+    position: relative;
+    display: flex;
+    height: 297px;
+}
+
+.lg-flex {
+    border: 1px solid blue;
+    width: 50%;
     display: flex;
 }
 
-.lg-flex img {
+.footer-logo {
     width: 90px;
     margin-top: 30px;
     margin-left: 30px;
@@ -419,6 +427,7 @@ footer .lg-flex {
 
 
 footer ul li {
+    text-align: right;
     list-style: none;
     font-family: "Arial";
     font-size: 20px;
@@ -427,12 +436,34 @@ footer ul li {
 
 footer ul li a {
     font-size: 17px;
-
-   color: #4b4b4b;
-   text-decoration: none;
+    color: #4b4b4b;
+    text-decoration: none;
 }
 
+.footer-sub-logo {
+    width: 50%;
+    border: 1px solid green;
 
+}
+
+.footer-social-media-links {
+    display: flex;
+    border: 1px solid red;
+}
+
+.footer-social-media-links ul {
+    display: flex;
+    font-size: 30px;
+    border: 1px dashed red;
+}
+
+.footer-social-media-links ul li{
+    padding-inline: 10px;
+}
+
+.footer-social-media-links ul li i{
+    font-size: 2rem;
+}
  
 
 

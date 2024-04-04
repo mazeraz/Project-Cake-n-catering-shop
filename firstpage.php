@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="firstpage.css">
     <link rel="icon" type="image/x-icon" href="img/Mainlogo.ico">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!--Font Packages -->
     <link href="https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,7 +41,7 @@
     <div class="navigation-menu">
         <ul>
             <li class="active"><a href="#">Home</a></li>
-            <li class="passive"><a href="#">Services</a></li>
+            <li class="passive"><a href="#">Menu</a></li>
 
         </ul>
     </div>
@@ -143,16 +145,22 @@
 <br>
 <br>
     <footer>
+ <div id="lg-father-flex">
+            <div class="footer-sub-logo">
+                     <img class="footer-logo" src="img/Mainlogo.png" alt="footer-main-logo">
+            </div>
       <div class="lg-flex">
-        <img src="img/Mainlogo.png" alt="footer-main-logo">
-         <div class="about-us">
-            <ul class="about-us-ul">
-                <li class=""><a href="#"><strong>About us</strong></a></li>
-                <li class=""><a href="#">History</a></li>
-                <li class=""><a href="#">Developers</a></li>
-                <li class=""><a href="#">Know us!</a></li>
+        <div class="about-us">
+            <ul class="menu-ul">
+                <li class=""><a href="#"><strong>Reach us</strong></a></li>
+                <li class=""><a href="#">Customer Serivce</a></li>
+                <li class=""><a href="#">Suggestions</a></li>
+                <li class=""><a href="#">Email Box</a></li>
+                <li class=""><a href="#">Contact #</a></li>
+
             </ul>
-         </div>
+        </div>
+       
 <!--divider--><div style="width: 50px;"></div>
          <div class="about-us">
             <ul class="menu-ul">
@@ -165,17 +173,29 @@
             </ul>
          </div>
 <!--divider--><div style="width: 50px;"></div>
-        <div class="about-us">
-            <ul class="menu-ul">
-                <li class=""><a href="#"><strong>Reach us</strong></a></li>
-                <li class=""><a href="#">Customer Serivce</a></li>
-                <li class=""><a href="#">Suggestions</a></li>
-                <li class=""><a href="#">Email Box</a></li>
-                <li class=""><a href="#">Contact #</a></li>
+<div class="about-us">
+            <ul class="about-us-ul">
+                <li class=""><a href="#"><strong>About us</strong></a></li>
+                <li class=""><a href="#">History</a></li>
+                <li class=""><a href="#">Developers</a></li>
+                <li class=""><a href="#">Know us!</a></li>
+            </ul>
+         </div>
+      </div>
+
+            
+</div>
+        <div class="footer-social-media-links">
+            <ul>
+                 <li><i class="fa-brands fa-spotify"></i></li>
+                <li><i class="fa-brands fa-facebook "></i></li>
+                <li><i class="fa-brands fa-square-instagram"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-discord"></i></li>
 
             </ul>
         </div>
-      </div>
     </footer>
 </body>
 </html>
+
