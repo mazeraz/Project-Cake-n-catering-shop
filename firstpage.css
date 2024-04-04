@@ -217,7 +217,7 @@ html, body {
     display: flex;
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 476px;
+    height: 80vh;
     
 }
 
@@ -243,7 +243,7 @@ html, body {
 }
 
 .slogan a {
-    margin-left: 40px;
+    margin-left: 32%;
     font-family: "SoDo Sans SemiBold";
     border: 1px #c2774d solid;
     cursor: pointer;
